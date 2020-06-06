@@ -1,5 +1,7 @@
 # CPPSLT
 
+methode d'installation du projet sur un Raspberry
+
 git init
 
 git clone https://github.com/PatrickRioche/CPPSLT.git
@@ -7,6 +9,7 @@ git clone https://github.com/PatrickRioche/CPPSLT.git
 _creation struture /CPPSLT_
 
 cd CPPSLT<br>
+
 vi sensor.py<br>
 ```
 print("Hello Sensor");

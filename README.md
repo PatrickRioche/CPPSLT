@@ -4,8 +4,8 @@ git init
 
 git clone https://github.com/PatrickRioche/CPPSLT.git
 
-      creation struture /CPPSLT
-      
+_creation struture /CPPSLT_
+
 cd CPPSLT<br>
 vi sensor.py<br>
 ```

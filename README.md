@@ -4,26 +4,27 @@ git init
 
 git clone https://github.com/PatrickRioche/CPPSLT.git
 
-# creation struture /CPPSLT 
-cd CPPSLT
-vi sensor.py
-<nl>
+      creation struture /CPPSLT
+      
+cd CPPSLT<br>
+vi sensor.py<br>
+```
 print("Hello Sensor");
-<nl>
+```
  
  git add .<br>
  git config --global user.email "patrick.rioche@gmail.com"<br>
  git config --global user.name "PatrickRioche/CPPSLT"
  
- git commit -m "1er commit"
-----------------------
+git commit -m "1er commit"
+```
 [master 82b62a2] 1er commit<br>
  1 file changed, 1 insertion(+)<br>
  create mode 100644 sensor.py<br>
-----------------------
+```
 
 git push
-----------------------
+```
 Username for 'https://github.com': patrick.rioche@gmail.com
 Password for 'https://patrick.rioche@gmail.com@github.com': 
 Énumération des objets: 4, fait.
@@ -35,6 +36,21 @@ Total 3 (delta 1), réutilisés 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/PatrickRioche/CPPSLT.git
    0609a0b..82b62a2  master -> master
-----------------------
+```
+
+git pull
+```
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 9 (delta 4), reused 0 (delta 0), pack-reused 0
+Dépaquetage des objets: 100% (9/9), fait.
+Depuis https://github.com/PatrickRioche/CPPSLT
+   82b62a2..13ca05d  master     -> origin/master
+Mise à jour 82b62a2..13ca05d
+Fast-forward
+ README.md | 41 ++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 40 insertions(+), 1 deletion(-)
+```
 
 #Fin

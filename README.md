@@ -4,24 +4,22 @@ git init
 
 git clone https://github.com/PatrickRioche/CPPSLT.git
 
-# creation struture /CPPSLT
+# creation struture /CPPSLT 
+cd CPPSLT
+vi sensor.py
+<nl>
+print("Hello Sensor");
+<nl>
  
- cd CPPSLT
- vi sensor.py
- -------------------
- print("Hello Sensor");
- -------------------
- 
- git add .
- 
- git config --global user.email "patrick.rioche@gmail.com"
+ git add .<br>
+ git config --global user.email "patrick.rioche@gmail.com"<br>
  git config --global user.name "PatrickRioche/CPPSLT"
  
  git commit -m "1er commit"
 ----------------------
-[master 82b62a2] 1er commit
- 1 file changed, 1 insertion(+)
- create mode 100644 sensor.py
+[master 82b62a2] 1er commit<br>
+ 1 file changed, 1 insertion(+)<br>
+ create mode 100644 sensor.py<br>
 ----------------------
 
 git push

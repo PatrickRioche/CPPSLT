@@ -15,13 +15,18 @@
 // Calcul: distance (cm) = impulsion (µs) / 58
 // Dimensions: 45 x 21 x 18 mm
 //
-//      
-//
-//
-//
-//
-//
-//
+//      HC-SR04-SR05  
+//    |   |   |     |
+//   Vcc Trg Eco   Gnd
+//    |   |   |     |
+//    |   |   R330  |
+//    |   |   +---+ |
+//    |   |   |   | |
+//    |   |   R470| |
+//    |   |   |   | |
+//   5V  Tri Gnd  | |  
+//    1  16   3  24 3
+//   PI3B+
 
 print("Hello Sensor");
 

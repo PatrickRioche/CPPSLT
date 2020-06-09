@@ -1,33 +1,33 @@
-// HC-SR04-SR05		
-// VMA306		
-//
-// Ce module permet d'évaluer les distances entre un objet
-// mobile et les obstacles rencontrés. Il suffit d'envoyer
-// une impulsion de 10 µs en entrée et le capteur renvoie
-// une largeur d'impulsion proportionnelle à la distance.
-//
-// Alimentation: 5 Vcc
-// Consommation: 15 mA
-// Fréquence: 40 kHz
-// Portée: de 2 cm à 4 m
-// Déclenchement: impulsion TTL positive de 10µs
-// Signal écho: impulsion positive TTL proportionnelle à la distance
-// Calcul: distance (cm) = impulsion (µs) / 58
-// Dimensions: 45 x 21 x 18 mm
-//
-//      HC-SR04-SR05  
-//    |   |   |     |
-//   Vcc Trg Eco   Gnd
-//    |   |   |     |
-//    |   |   R330  |
-//    |   |   +---+ |
-//    |   |   |   | |
-//    |   |   R470| |
-//    |   |   |   | |
-//   5V  Tri Gnd  | |  
-//Pin 2  12   6  18 6
-//        PIB+  Pin12=GPIO18  Pin18=GPIO24
-//
+# HC-SR04-SR05     
+# VMA306       
+#
+# Ce module permet d'évaluer les distances entre un objet
+# mobile et les obstacles rencontrés. Il suffit d'envoyer
+# une impulsion de 10 µs en entrée et le capteur renvoie
+# une largeur d'impulsion proportionnelle à la distance.
+#
+# Alimentation: 5 Vcc
+# Consommation: 15 mA
+# Fréquence: 40 kHz
+# Portée: de 2 cm à 4 m
+# Déclenchement: impulsion TTL positive de 10µs
+# Signal écho: impulsion positive TTL proportionnelle à la distance
+# Calcul: distance (cm) = impulsion (µs) / 58
+# Dimensions: 45 x 21 x 18 mm
+#
+#      HC-SR04-SR05  
+#    |   |   |     |
+#   Vcc Trg Eco   Gnd
+#    |   |   |     |
+#    |   |   R330  |
+#    |   |   +---+ |
+#    |   |   |   | |
+#    |   |   R470| |
+#    |   |   |   | |
+#   5V  Tri Gnd  | |  
+#Pin 2  12   6  18 6
+#        PIB+  Pin12=GPIO18  Pin18=GPIO24
+#
 
 print("Hello Sensor");
 

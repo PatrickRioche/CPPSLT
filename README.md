@@ -1,5 +1,7 @@
 # CPPSLT
 
+Projet CouPePissenLiT : Tondeuse automone équipe d un raspberry a tres bas coup (inferieur à 100€)
+
 methode d'installation du projet sur un Raspberry
 
 git init

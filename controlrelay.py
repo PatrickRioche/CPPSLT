@@ -10,6 +10,13 @@
 # Si vous définissez 5 V au lieu de 3,3 V sur VCC,
 # vous devez absolument mettre une résistance chacun (~ 1 kΩ) 
 # entre les GPIO et les broches IN.
+#
+#    Low Level Trigger
+#       Vcc Gnd In
+#        |   |   |
+#
+#
+
 
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM) # GPIO Numbers instead of board numbers

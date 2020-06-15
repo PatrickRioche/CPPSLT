@@ -15,18 +15,19 @@
 # Calcul: distance (cm) = impulsion (µs) / 58
 # Dimensions: 45 x 21 x 18 mm
 #
-#      HC-SR04-SR05  
-#    |   |   |     |
-#   Vcc Trg Eco   Gnd
-#    |   |   |     |
-#    |   |   R330  |
-#    |   |   +---+ |
-#    |   |   |   | |
-#    |   |   R470| |
-#    |   |   |   | |
-#   5V  Tri Gnd  | |  
-#Pin 2  12   6  18 6
-#        PIB+  Pin12=GPIO18  Pin18=GPIO24
+#      HC-SR04-SR05
+#    =================
+#     |   |   |     |
+#    Vcc Trg Eco   Gnd
+#     |   |   |     |
+#     |   |   R330  |
+#     |   |   +---+ |
+#     |   |   |   | |
+#     |   |   R470| |
+#     |   |   |   | |
+#    5V  Tri Gnd  | |  
+# Pin 2  12   6  18 6
+# PIB+  Pin12=GPIO18  Pin18=GPIO24
 #
 
 print("Hello Sensor");

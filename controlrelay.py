@@ -16,8 +16,8 @@
 #        |   |   |
 #      3,3V Gnd  |
 #   Pin  1   6   11
-#    GPIO17=11
-
+#   PI3B+  Pin11=GPIO17
+#
 
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM) # GPIO Numbers instead of board numbers

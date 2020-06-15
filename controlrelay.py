@@ -14,7 +14,8 @@
 #    Low Level Trigger
 #       Vcc Gnd In
 #        |   |   |
-#
+#      3,3V Gnd GPIO17
+#   Pin  2   6  
 #
 
 

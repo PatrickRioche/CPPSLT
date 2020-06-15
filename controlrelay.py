@@ -14,9 +14,9 @@
 #    Low Level Trigger
 #       Vcc Gnd In
 #        |   |   |
-#      3,3V Gnd GPIO17
-#   Pin  2   6  
-#
+#      3,3V Gnd  |
+#   Pin  1   6   11
+#    GPIO17=11
 
 
 import RPi.GPIO as GPIO
